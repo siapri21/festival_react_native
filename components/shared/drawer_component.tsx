@@ -1,15 +1,19 @@
 import {
 	type DrawerContentComponentProps,
-	DrawerContentScrollView,
+	DrawerContentScrollView, DrawerItem,
 } from "@react-navigation/drawer";
 import { Text } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 
 const DrawerComponent = (
 	props: DrawerContentComponentProps,
 ): React.JSX.Element => {
+	const navigation = useNavigation();
 	return (
 		<DrawerContentScrollView {...props}>
-			<Text>Title</Text>
+		{/* Existant */}
+      <DrawerItem label="Profile" onPress={() => navigation.navigate('Profile')} />
+      <DrawerItem label="Cart" onPress={() => navigation.navigate('Cart')} />
 		</DrawerContentScrollView>
 	);
 };

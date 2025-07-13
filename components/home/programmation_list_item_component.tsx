@@ -55,7 +55,7 @@ const ProgrammationListItemComponent = ({
 	useEffect(() => {
 		if (!programme?.artist?.slug) return;
 
-		new ArtistApiService()
+		ArtistApiService
 			.getArtistBySlug(programme.artist.slug)
 			.then((data) => {
 				setArtist(data as Artist);

@@ -61,7 +61,27 @@ const TabsLayout = (): React.JSX.Element => {
 					),
 				}}
 			/>
+			<Tabs.Screen
+	name="Plan"
+	options={{
+		tabBarLabel: "Plan",
+		tabBarIcon: () => (
+			<Feather name="map-pin" style={styles.tabBarIconStyle} />
+		),
+	}}
+/>
+
+			<Tabs.Screen
+			name="Menu-tabs"
+			options={{
+				tabBarLabel: "Menu",
+				tabBarIcon: () => (
+					<Feather name="home" style={styles.tabBarIconStyle} />
+				),
+			}}
+			/>
 		</Tabs>
+		
 	);
 };
 
@@ -90,7 +110,7 @@ const styles = StyleSheet.create({
 	iconHomeBtn: {
 		width: 65,
 		height: 65,
-		borderRadius: "50%",
+		borderRadius: 50,
 		backgroundColor: colors.ternary,
 		justifyContent: "center",
 		alignItems: "center",

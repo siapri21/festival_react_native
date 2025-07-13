@@ -75,7 +75,7 @@ const ArtistSlug = (): React.JSX.Element => {
 			setFavorite();
 
 			// récupérer la programmation de l'artiste par son id
-			new ProgrammationApiService()
+			 ProgrammationApiService
 				.getProgrammationByArtistId(data?.id as number)
 				.then((data) => setProgrammation(data));
 

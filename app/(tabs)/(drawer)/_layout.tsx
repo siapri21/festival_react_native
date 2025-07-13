@@ -8,6 +8,7 @@ const DrawerLayout = (): React.JSX.Element => {
 		<GestureHandlerRootView>
 			<Drawer drawerContent={(props) => <DrawerComponent {...props} />}>
 				<Drawer.Screen name="billets" />
+				
 			</Drawer>
 		</GestureHandlerRootView>
 	);

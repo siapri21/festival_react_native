@@ -13,7 +13,7 @@ const ProgrammationListComponent = (): React.JSX.Element => {
 	useEffect(() => {
 		// récupérer toute la programmation
 		// then permet de récupérer les données lorsqu'une promesse est tenue
-		new ProgrammationApiService()
+		ProgrammationApiService
 			.getProgrammation()
 			.then((data) => setProgrammation(data));
 	}, []);

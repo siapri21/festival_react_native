@@ -14,7 +14,7 @@
 		{ "id": 2, "slug": "pop-rock", "name": "Pop Rock" },
 		{ "id": 3, "slug": "french-music", "name": "Chanson Française" },
 		{ "id": 4, "slug": "rap", "name": "Rap" },
-		{ "id": 5, "slug": "variety", "name": "Varieté" },
+		{ "id": 5, "slug": "variety", "name": "Variete" },
 		{ "id": 6, "slug": "pop", "name": "Pop" },
 		{ "id": 7, "slug": "indie-rock", "name": "Indie rock" },
 		{ "id": 8, "slug": "electro-pop", "name": "Electro Pop" },
@@ -73,7 +73,7 @@
 			"name": "Franz Ferdinand",
 			"poster": "9ed9aa62-27fe-4899-baa7-8aff82eff86d.jpg",
 			"description": [
-				"Depuis ses débuts, à l'époque où le groupe organisait des fêtes clandestines dans des bâtiments désaffectés de Glasgow, on retrouve chez Franz Ferdinand un regard frais, sans fard, tourné vers l'avenir et une perspective transgressive mais toujours avec un amour pour les grandes chansons.",
+				"Depuis ses débuts, à l'époque où le groupe organisait des fêtes clandestines dans des bâtiments désaffectés de Glasgow, on retrouve chez Franz Ferdinand un regard frais, sans fard, tourné vers l'avenir et une perspective transgressive mais toujour avec un amour pour les grandes chansons.",
 				"Leur nouvel album The Human Fear qui sortira le 10 janvier 2025 s’inscrit indubitablement dans cette tradition ; distinct mais nouveau, musicalement et artistiquement, c'est un disque qui va vers l'avant.",
 				"Le groupe sera à sur la scène Cathédrale de Pause Guitare le 2 Juillet 2025 pour un concert rock et dynamique."
 			],
